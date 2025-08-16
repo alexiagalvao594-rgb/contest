@@ -1,0 +1,39 @@
+/* Shared styling for all scorecards */
+body {
+  font-family: "Courier New", monospace;
+  text-align: center;
+  background-color: #e6ccff; /* light purple background */
+  margin: 20px;
+}
+
+h1 {
+  color: #004d00; /* dark green header */
+  margin-bottom: 20px;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #004d00; /* dark green borders */
+  padding: 12px;
+}
+
+th {
+  background-color: #004d00; /* dark green header */
+  color: #e6ccff; /* light purple text */
+}
+
+/* Pseudo-class usage */
+tr:hover {
+  background-color: #ff9999; /* light red hover */
+}
+
+td:first-child {
+  font-weight: bold;
+  color: #004d00;
+}
